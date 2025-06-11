@@ -1,0 +1,16 @@
+.square {
+width: 100px;
+height: 100px;
+background-color: #79b886;
+margin: 50px;
+}
+        
+.square:hover {
+animation: rotate 3s linear;
+}
+        
+@keyframes rotate {
+to {
+transform: rotate(360deg);
+ }
+}

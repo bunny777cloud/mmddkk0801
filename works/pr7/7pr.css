@@ -1,0 +1,69 @@
+.p1 {
+    text-align: center;
+}
+.p2 {
+    text-indent: 120px;
+}
+.p3 {
+    line-height: 250%;
+}
+.p4 span {
+    vertical-align:super;
+}
+.p5 {
+    word-spacing: 17px;
+}
+.p6 {
+    letter-spacing: 5px;
+}
+.p7 {
+    white-space:inherit;
+}
+.p9 {
+    text-transform: uppercase;
+}
+.p10 {
+    direction: rtl;
+}
+#p11 {
+    text-transform:capitalize;
+}
+#p12 {
+    text-transform: capitalize;
+}
+#p13 {
+    direction: rtl;
+}
+#p14 {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+#p15 {
+    text-decoration: underline;
+}
+#p16::first-letter {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+}
+#p17 {
+    quotes: "«" "»";
+}
+#p18 {
+    font-family: 'Arial', sans-serif;
+}
+#p19 {
+    font-style: italic;
+}
+#p20 {
+    font-variant: small-caps;
+}
+#p21 {
+    font-weight: bold;
+}
+#p22 {
+    font-size: 170%;
+}
+#p23 {
+    color: #FF5733;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+h2{
+font-size: 20px;
+font-weight: 400;
+color: #474747;
+margin-bottom: 10px;
+}
+
+p{
+font-weight: 300;
+font-size: 16px;
+}
+.form-container {
+margin-top: 20px;
+width: 320px;
+height: 270px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+box-sizing: border-box;
+font-family: Roboto;
+        }
+        
+.input-field {
+width: 100%;
+height: 25px;
+padding: 5px;
+box-sizing: border-box;
+}
+        
+.message-field {
+height: 140px;
+resize: none;
+}
+
+        
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    border: 1px solid black;
+    width: 780px;
+    height: 423px;
+    justify-content: space-between;
+    padding: 35px 75px 25px 25px;
+}
+.right{
+    margin-left: 30px;
+    height: 400px;
+    width: 320px;  
+}
+.hey{
+    margin-top: 10px;
+}
+.top-l-text{
+width:250px ;
+height: 130px;
+
+}
+.text-cntr{
+    margin-top: 60px;
+    width: 250px;
+    height: 90px;
+}
+.left{
+    display: flex;
+    height: 400px;
+    width: 280px;
+    flex-direction: column;
+}
+.numb{
+    margin-top: 70px;
+    height: 40px;
+    width: 255px;
+}
+.yellow{
+    height: 8px;
+    width: 50px;
+    background-color: rgb(255, 255, 88);
+}
+.zvoni{
+margin-top: 15px;
+width: 300px;
+}
+.top-r-text{
+width: 320px;
+height: 95px;
+margin-bottom: 35px;
+}
+
+.submit-btn{
+    background: #1f1f1f;
+    cursor: pointer;
+    height: 35px;
+    color: #fff83b;
+    line-height: 35px;
+    text-align: center;
+    width:120px;
+    margin-left: 200px;
+}

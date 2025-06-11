@@ -1,0 +1,80 @@
+body {
+font-family: 'Roboto Condensed', sans-serif;
+margin: 0;
+ padding: 0;
+color: #5B5B5B;
+font-weight: 500;
+}
+.osnova {
+  display: flex;
+  flex-wrap: wrap;
+  height: 700px;
+  width: 1200px;
+ margin: 80px auto auto 200px;
+ position: relative;
+}
+.things {
+  display: flex;
+  flex-wrap: wrap;
+  height:400px;
+  width: 700px;
+  gap: 80px;
+  position: absolute;
+  right: 20px;
+}
+.two-things{
+  display: flex;
+  width: 1200px;
+}
+.feature-item{
+ width:160px;
+height: 150px;
+}
+.feature-image {
+  display: flex;
+height: 72px;
+width: 72px;
+background-size: contain;
+}
+.n-1 { background-image: url(img/Frame\ 11.png); }
+.n-2 { background-image: url(img/Frame\ 9.png); }
+.n-3 { background-image: url(img/Frame\ 10.png); }
+.n-4 { background-image: url(img/Frame\ 7.png); }
+.n-5 { background-image: url(img/Frame\ 8.png); }
+.left-image{ 
+width: 331px;
+height: 474px; 
+ background-image: url(img/image\ 6\ \(1\).png);
+ display: flex;
+}
+.title{
+display: flex;
+margin-left: 250px;
+font-size: 48px;
+ font-weight: 700;
+}
+.certification{
+display: flex;
+width: 403.64px;
+font-size: 18px;
+font-weight: 700;   
+margin-top: 40px;  
+position: absolute;
+left: 0px;
+bottom: -150px;
+}
+.button{ 
+width: 291.48px;
+height: 60px;
+background-color: #F26689;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 18px;
+font-weight: 700; 
+position: absolute;
+left: 0px;
+bottom: -90px;
+}
+

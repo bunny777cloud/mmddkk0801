@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+body{
+font-family: Open Sans, sans-serif;
+margin: 0;
+text-decoration: none;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header{
+    font-weight: 600;
+    padding: 25px 0;
+}
+.logo{
+font-weight: 700;
+font-size: 25px;
+}
+.header_list{
+    display:flex;
+    gap:75px;
+    font-size: 20;
+}
+.lo{
+    background-image: url(img/sear.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover ;
+    background-position: center ;
+    display: flex;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+max-width: 1400px;
+margin: 0 auto;
+}
+.btn-two{
+    display: flex;
+    background-color: rgb(105, 175, 175);
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+.btn-one{
+    color: #ffffff;
+    display: flex;
+    background-color:transparent ;
+    border: 2px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.btn-container{
+    gap: 20px;
+    display: flex;
+    margin-top: 110px;
+    justify-content: center;
+}
+.welcome_title{
+    font-size: 60px;
+    margin-top: 180px;
+    text-align: center;
+}
+.welcome_subtitle{
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 50px;
+    text-align: center;
+}
+.welcome{
+    color: #ffffff;
+}
+h1,h2,h3,h4{
+    margin: 0;
+}
+.welcome{
+    background-image: url(img/1photo.png);
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0;
+}
+
+.ideas-list_card{
+    width: 260px;
+    text-align: center;
+}
+.ideas-list_img{
+    margin-top: 100px;
+}
+.ideas-list{
+    font-size: 15px;
+}
+.img-1{
+    background: url(img/internet.png);
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 75px;
+    
+}
+.img-2{
+    background: url(img/transfer.png);
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 75px;
+}
+.img-3{
+    background: url(img/head.png);
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 75px;
+}
+.ideas-list .container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.ideas-list_title{
+    margin-top: 20px;
+}
+.ideas-list_desc{
+    margin-bottom: 100px;
+}
+.ideas-list_titles{
+    text-align: center;
+    width: 800px;
+    margin: 100px auto 0;
+}
+.thing-list{
+background-color: #b4fdf9;
+padding: 60px 0;
+}
+.thing-list_card{
+width: 360px;
+background: #fff;
+padding: 30px;
+}
+.thing-list_img{
+height: 62px;
+width: 62px;
+margin: 20px auto;
+display: block;
+background-image: url(img/22.png);
+background-repeat: no-repeat;
+}
+.thing-list_img .dif{
+background-image: url(img/11.png);
+}
+.thing-list_title{
+text-align: center;
+font-size: 20px;
+font-weight: 300;
+}
+.list-ttl{
+    font-size: 15px;
+}
+.thing-list_desc{
+text-align: center;
+}
+.thing-list .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  width: 1400px; 
+  margin: 0 auto;
+  gap: 30px;
+  padding: 0 20px;     
+}
+.thing-btn{
+    width: 150px;
+    height: 60px;
+    display: block;
+    margin: 60px auto;
+    background-color: transparent;
+    border: 2px solid #000000;
+    font-size: 20px;
+}
+.title_a{
+    font-weight: 500;
+    font-size: 24px;
+}
+.card-act{
+    background-color: #00897b;
+    color: #fff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.card-act .thing-btn{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #fff;
+}
+.thing-text{
+    text-align: center;
+    width: 800px;
+    margin: 100px auto;
+}
+.buy-list_title{
+     text-align: center;
+    width: 800px;
+    margin: 100px auto 0;
+    color: #fff;
+}
+.buy-list{
+background-image: url(img/hel.png);
+padding: 50px 0 50px;
+
+}
+.title_buy{
+    font-size: 28px;
+}
+.buy-list_card{
+width: 200px;
+    text-align: center;
+     color: #fff;
+}
+.buy-list_img{
+height: 85px;
+    width: 85px;
+    margin-top: 90px;
+}
+.img-buy1{
+    background-image: url(img/1blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-buy2{
+    background-image: url(img/2bluel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dif-btn{
+    position: absolute;
+    background-image: url(img/hello.png);
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    right: 50px;
+    
+}
+.dif_btn{
+    position: relative;
+}
+.img-buy3{
+    background-image: url(img/3blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thing-list_title{
+margin-top: 20px;
+margin-bottom: 100px;
+
+}
+.buy-list .container{
+ display: flex;
+ justify-content: space-around;
+}
+
+.form-container {
+width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.form-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+grid-template-rows: 100px 400px auto;
+ gap: 20px;
+}
+.input-field {
+background: white;
+border-radius: 10px;
+padding: 15px;
+box-sizing: border-box; 
+  width: 100%;
+  resize: none;
+}
+
+.name-field {
+grid-column: 1;
+grid-row: 1;
+}
+.email-field {
+grid-column: 2;
+grid-row: 1;
+}
+.message-field {
+grid-column: 1 / span 2;
+ grid-row: 2;
+ height: 300px; 
+        }
+.send-button {
+grid-column: 2;
+ grid-row: 3;
+background: white;
+border-radius: 10px;
+padding: 15px 30px;
+justify-self: end;
+width: 200px;
+font-size: 20px;
+}
+.footer h4{
+    margin: 0;
+}
+.footer{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-list_desc{
+    font-size: 15px;
+}

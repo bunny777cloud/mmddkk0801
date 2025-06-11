@@ -1,0 +1,254 @@
+
+*{
+color: azure;
+font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+ 
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+}
+.it-1{
+    background-color: rgb(84, 36, 243);
+    display: flex;
+    flex-direction: row;
+    box-shadow:  10px 15px -10px rgba(0, 0, 0, 0.8);
+}
+.it-2{
+    background:url(img/site.png);
+    background-size: cover;
+}
+
+.nameone{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+}
+.photo{
+    background: url(img/three.png);
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.n-2{
+    font-size: 24px;
+}
+.three{
+    border-left: 1px solid rgb(209, 209, 209);
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n-1-1{
+    background: url(img/head_white.png);
+    height: 180px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.n-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 50%;
+}
+.descr{
+    width: 50%;
+    flex-direction: column;
+  gap: 20px; 
+  padding: 25px;
+  display: flex;
+}
+.n-2 h2, .n-3 h3 {
+  margin: 0;
+}
+.n-4{
+    display: flex;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(104, 236, 92);
+    color: azure;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  position: relative;
+  padding-left: 10px;
+}
+.n-4::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    width: 24px; 
+    height: 24px; 
+    background-image: url(img/three.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foldr h3, .foldr p {
+    color: rgba(255, 255, 255, 0.7);
+}
+.foldr h3{
+    font-size: 32px;
+}
+.item .it-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.yes{
+    display: flex;
+}
+
+
+.follow, .friend {
+  border-right: 1px solid rgba(255, 255, 255, 0.3); 
+  padding-right: 30px;
+}
+
+.follow, .friend, .views {
+  position: relative;
+  text-align: center;
+}
+
+.foldr {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+.foldr h3, .foldr p {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 2px 0; 
+}
+
+.foldr h3 {
+  font-size: 38px;
+}
+
+.sms{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    
+}
+.gree{
+    background-color: rgb(81, 240, 97);
+    height: 10px;  
+}
+.white{
+background-color: rgb(255, 255, 255);
+box-shadow: 0 10px 15px -10px rgba(0, 0, 0, 0.2);
+
+}
+
+.liccom{
+
+    height: 50px;
+}
+.ok{
+
+    height: 50px;
+}
+.avca {
+    
+    display: flex;
+    align-items: center;  
+    padding: 15px;
+    gap: 10px;  
+}
+
+.phot {
+    background: url(img/head_small.png);
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    flex-shrink: 0; 
+     display: flex;
+    flex-direction: row;
+}
+
+.hjk {
+    
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;  
+}
+
+.name, .seconds {
+    margin: 0; 
+    padding: 0;  
+    text-align: left;  
+    color: black;
+}
+
+.seconds {
+    font-size: 14px;
+}
+.textic{
+    margin: 15px;
+}
+.liccom{
+    display: flex;
+    gap: 60px;
+    padding: 10px 10px 10px 50px;
+}
+.lik::before {
+    content: "";
+    position: absolute;
+    left: 38px;
+    width: 24px; 
+    height: 24px; 
+    background-image: url(img/like.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.com::before {
+    content: "";
+    position: absolute;
+    left: 150px;
+    width: 24px; 
+    height: 24px; 
+    background-image: url(img/sms.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ok{
+    display: flex;
+    padding: 5px;
+}
+.write{
+    height: 40px;
+    width: 80%;
+    margin: 5px;
+    border: 1px solid  rgb(206, 204, 204);
+}
+.send{
+        height: 40px;
+        width: 20%;
+    background-color: rgb(55, 241, 92);
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.it-3{
+    background-color: #e0e0e0;
+}
+
+.white .seconds,
+.white .textic,
+.white .lik,
+.white .com {
+    color: rgb(48, 48, 48);
+}

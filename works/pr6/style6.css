@@ -1,0 +1,38 @@
+body{
+    background: #f0f9f8;
+    font: size 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font: size 24px;
+}
+h2{
+    font: size 20px;
+}
+main{
+    width: 100%;
+    display: flex;
+}
+section, aside{
+    border: 1px solid #81bfb7;
+    padding: 10px;
+}
+aside {
+    width: 30%;
+}
+section{
+    width: 70%;
+}
+footer{
+    background: #81bfb7;
+    padding: 10px;
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background: #81bfb7;
+}
+li{
+    padding: 10px;
+}
