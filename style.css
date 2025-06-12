@@ -3,36 +3,36 @@
     height: 100px;
 }
 .new1{
-    background: url(../img/dog.webp);
+    background: url(img/dog.webp);
     background-size: cover;
 }
 .new2{
-    background: url(../img/eee.webp);
+    background: url(img/eee.webp);
     background-size: cover;
 }
 .new3{
-    background: url(../img/3cats.png);
+    background: url(img/3cats.png);
     background-size: cover;
 }
 .n1{
-    background: url(../img/34.webp);
+    background: url(img/34.webp);
     background-size: cover;
 }
 .n2{
-    background: url(../img/790.jpg);
+    background: url(img/790.jpg);
     background-size: cover;
 }
 .n3{
-    background: url(../img/555.webp);
+    background: url(img/555.webp);
     background-size: cover;
 }
 .n4{
-    background: url(../img/705.webp);
+    background: url(img/705.webp);
     background-size: cover;
     margin-right: 10px;
 }
 .n5{
-    background: url(../img/705.webp);
+    background: url(img/705.webp);
     background-size: cover;
 }
 body{
